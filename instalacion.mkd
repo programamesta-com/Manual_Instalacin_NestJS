@@ -1,0 +1,125 @@
+# Instalacion de NestJS
+
+## Lo Necesario
+
+- Visual Studio Code
+- Node JS
+- NPM
+
+
+### NodeJS
+
+El primer componente que necesitamos instalar es Node.js 
+
+Paso1. Debemos entrar ala página oficial de Node.js (nodejs.org) y le da damos en la opción de descargar dependiendo del sistema operativo que tengamos 
+
+![nodejs](/assets/nest3.png)
+
+Paso 2. Ejecutamos el .exe que nos descargó, el numero de la versión dependerá de cual descargo
+
+![nodejs](/assets/nest4.png)
+
+Paso 3.  Al ejecutarlo nos saldrá dicha ventana en la cual le daremos a la opción de next
+
+![nodejs_instalacion](/assets/angular3.jpeg)
+
+Paso 3.  Al ejecutarlo nos saldrá dicha ventana en la cual le daremos a la opción de next
+![nodejs_instalacion2](/assets/angular4.jpeg)
+
+Paso 5. Seleccionamos la opción de Node.js runtime y le damos al botón de next
+
+![nodejs_instalacion3](/assets/angular5.jpeg)
+
+Paso 6. Para finalizar le damos al botón de finish y ya tendríamos instalado node.js 
+
+![nodejs_instalacion4](/assets/angular6.jpeg)
+
+Para verificar que ya tengamos instalado correctamente bien node.js abrimos una ventana de PowerShell aplicando el comando Windows + R y escribiendo PowerShell y escribimos el siguiente comando “node -v” y nos saldrá la versión que tengamos instalada 
+
+`node -v`
+
+![nodejs_version](/assets/angular7.jpeg)
+
+asi ya tendremos instalado correctamente nodejs
+
+### Instalacion NPM
+
+Para installar NPM es necesario entrar ala siguiente pagina (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+en la cual encontraremos el siguiente comando
+```
+npm install -g npm
+
+```
+![npm](/assets/npmIn.png)
+
+posteriormente lo ejecutaremos en la terminal con permisos de administrador 
+
+![npm](/assets/npmComand.png)
+
+Para verificar que se instalo de manera exitosa utilizaremos el siguiente comando 
+
+```
+npm --v 
+```
+
+![npm](/assets/npmIn.png)
+
+despues de corroborar que hayamos isntalado exitosamente NodeJs y NPM procederemos a instalar NestJs
+
+
+
+### Instalacion NestJS
+
+lo primero que vamos a necesitar es visitar la pagina oficial de NestJS ( https://nestjs.com/ )
+
+![NestJS](/assets/nest1.png)
+
+posteriormente iremos ala seccion llamada "Documentation"  y bajaremos hasta donde dice Installation en la cual encontraremos el siguiente comando el cual nos ayudara a instalar de manera correcta NestJS 
+
+```
+npm i -g @nestjs/cli
+```
+
+![NestJS](/assets/nestcomand.png)
+
+copiamos dicho comando y lo ejecutaremos en el Cmd con permisos de administrador 
+
+![NestJS](/assets/nest14.png)
+
+#### Creacion de nuestro primer proyecto en NestJS 
+
+Para crear nuestro proyecto en NestJS es necesario usar el siguiente comando
+
+```
+nest new project-name
+
+```
+
+el cual se empezara a ejecutar de la siguiente manera
+
+![NestJS](/assets/nestProyect.png)
+
+![NestJS](/assets/nestProyect2.png)
+
+al finalizar utilizaremos los siguientes comandos para inicar nuestro servidor de NestJS
+
+```
+npm run start:dev 
+
+```
+
+el cual empezara a cargar y al finalizar se mostrara de la siguiente manera 
+
+![NestJS](/assets/nest17.png)
+
+y al finalizar entraremos al local host en el puesto 3000 de la siguente manera
+
+```
+localhost:3000/
+```
+
+![NestJS](/assets/nest18.png)
+
+y asi tendremos acabado nuestra instalacion de NodeJS y de NestJS 
+
